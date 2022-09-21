@@ -243,8 +243,9 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
-  background-image: "/images/WIKIIGEM.jpg" !important;      
+  background-image: url("/images/WIKIIGEM.jpg") !important;
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-gray {
@@ -325,6 +326,8 @@ a:hover {
 
 .font-tertiary {
   font-family: "Playfair Display", serif !important;
+  color: white !important;
+  text-shadow: 2px 2px black;
 }
 
 .shadow {
@@ -413,7 +416,8 @@ textarea.form-control {
   height: min-content;
 }
 .navigation.nav-bg {
-  background-color: #B31E8D;
+  background-color: rgba(179,30,141, 0.4);
+  
   padding: 1px;
 }
 @media (max-width: 991px) {
@@ -432,6 +436,7 @@ textarea.form-control {
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
   padding: 15px;
+  text-shadow: 2px 2px black;
 }
 .navbar .nav-item.active {
   font-weight: bold;
