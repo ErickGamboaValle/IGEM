@@ -243,7 +243,6 @@ a:hover {
 }
 
 .bg-primary {
-  background-image: url("/images/WIKIIGEM.jpg") !important;
   background-size: cover;
   background-position: center;
 }
