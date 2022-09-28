@@ -853,12 +853,13 @@ blockquote {
 }
 /*# sourceMappingURL=style.css.map */
 
-/*# Polaroid configs*/
+/************************************************************************************* 
+Polaroid configs
+**************************************************************************************/
 .picture-container
 {
     position: relative;
     height: 650px;
-    padding-left: 35%;
 }
 
 .picture-container .polaroid

@@ -1,0 +1,5 @@
+1.- Arreglar las polaroids
+2.- Agregar Información
+3.- Revisar el JS para arreglar cualquier problema
+4.- Mejorar el diseño en general de la página.
+5.- Arreglar la paleta de colores permitidos (5DA5F3, B31E8D, F9A51A, 3A65AF, 13406B)
