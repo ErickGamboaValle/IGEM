@@ -22,6 +22,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 */
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400");
+
 body {
   line-height: 1.2;
   font-family: "Roboto", sans-serif;
@@ -30,54 +31,74 @@ body {
   color: #4c4c4c;
 }
 
-p, .paragraph {
+p,
+.paragraph {
   font-weight: 400;
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
 }
-p-lg, .paragraph-lg {
+
+p-lg,
+.paragraph-lg {
   font-size: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #000;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 80px;
 }
+
 @media (max-width: 991px) {
-  h1, .h1 {
+
+  h1,
+  .h1 {
     font-size: 65px;
   }
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 60px;
 }
+
 @media (max-width: 991px) {
-  h2, .h2 {
+
+  h2,
+  .h2 {
     font-size: 50px;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 40px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 22px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 18px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
 }
 
@@ -94,17 +115,21 @@ h6, .h6 {
   z-index: 1;
   transition: 0.2s ease;
 }
+
 .btn:focus {
   outline: 0;
   box-shadow: none !important;
 }
+
 .btn:active {
   box-shadow: none;
 }
+
 .btn-sm {
   font-size: 15px;
   padding: 10px 30px;
 }
+
 .btn-xs {
   padding: 5px 10px;
   font-size: 15px;
@@ -114,13 +139,17 @@ h6, .h6 {
   background: #41228e;
   color: #fff;
 }
+
 .btn-primary:active {
   background: #542cb7 !important;
 }
+
 .btn-primary:hover {
   background: #542cb7;
 }
-.btn-primary.focus, .btn-primary.active {
+
+.btn-primary.focus,
+.btn-primary.active {
   background: #542cb7 !important;
   box-shadow: none !important;
 }
@@ -130,7 +159,9 @@ h6, .h6 {
   color: #41228e;
   font-weight: bold;
 }
-.btn-transparent:active, .btn-transparent:hover {
+
+.btn-transparent:active,
+.btn-transparent:hover {
   color: #41228e;
 }
 
@@ -186,6 +217,7 @@ select {
   cursor: pointer;
   transition: 0.2s ease;
 }
+
 a:focus,
 button:focus,
 select:focus {
@@ -208,6 +240,7 @@ a:hover {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .section-title {
   margin-bottom: 80px;
   font-family: "Playfair Display", serif;
@@ -223,6 +256,7 @@ a:hover {
 .overlay {
   position: relative;
 }
+
 .overlay::before {
   position: absolute;
   content: "";
@@ -359,14 +393,17 @@ a:hover {
   text-align: center;
   padding-left: 0;
 }
+
 .slick-dots li {
   display: inline-block;
   margin: 2px;
 }
+
 .slick-dots li.slick-active button {
   background: #fff;
   width: 25px;
 }
+
 .slick-dots li button {
   height: 6px;
   width: 12px;
@@ -386,6 +423,7 @@ a:hover {
   border-bottom: 1px solid #c7c7c7;
   height: 60px;
 }
+
 .form-control:focus {
   border-color: #41228e;
   outline: 0;
@@ -401,9 +439,11 @@ textarea.form-control {
 .card {
   border: 0;
 }
+
 .card-header {
   border: 0;
 }
+
 .card-footer {
   border: 0;
 }
@@ -414,16 +454,19 @@ textarea.form-control {
   transition: 0.3s ease;
   height: min-content;
 }
+
 .navigation.nav-bg {
-  background-color: rgba(179,30,141, 0.4);
-  
+  background-color: rgba(179, 30, 141, 0.4);
+
   padding: 1px;
 }
+
 @media (max-width: 991px) {
   .navigation.nav-bg {
     padding: 15px 20px;
   }
 }
+
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
@@ -437,6 +480,7 @@ textarea.form-control {
   padding: 15px;
   text-shadow: 2px 2px black;
 }
+
 .navbar .nav-item.active {
   font-weight: bold;
   padding: 150;
@@ -451,6 +495,7 @@ textarea.form-control {
   padding: 300px 0 200px;
   position: relative;
 }
+
 @media (max-width: 767px) {
   .hero-area {
     background-color: #bdecf6;
@@ -458,6 +503,7 @@ textarea.form-control {
     overflow: hidden;
   }
 }
+
 .hero-area h1 {
   position: relative;
   z-index: 2;
@@ -530,7 +576,9 @@ textarea.form-control {
   width: 100%;
   height: 100%;
 }
-.wave::before, .wave::after {
+
+.wave::before,
+.wave::after {
   content: "";
   position: absolute;
   width: 800px;
@@ -541,15 +589,16 @@ textarea.form-control {
   border-radius: 45%;
   transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
   z-index: 10;
 }
+
 .wave::after {
   border-radius: 47%;
   background-color: rgba(255, 255, 255, 0.9);
   transform: translateX(-50%) rotate(0);
   -webkit-animation: rotate 10s linear -5s infinite;
-          animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
   z-index: 20;
 }
 
@@ -557,6 +606,7 @@ textarea.form-control {
   50% {
     transform: translateX(-50%) rotate(180deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(360deg);
   }
@@ -566,10 +616,12 @@ textarea.form-control {
   50% {
     transform: translateX(-50%) rotate(180deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(360deg);
   }
 }
+
 /* /skills */
 /* education */
 .edu-bg-image {
@@ -584,9 +636,11 @@ textarea.form-control {
 .hover-bg-primary {
   transition: 0.3s ease;
 }
+
 .hover-bg-primary:hover {
   background: #41228e;
 }
+
 .hover-bg-primary:hover * {
   color: #fff;
 }
@@ -595,6 +649,7 @@ textarea.form-control {
   transition: 0.3s ease;
   background: #41228e;
 }
+
 .active-bg-primary * {
   color: #fff;
 }
@@ -602,6 +657,7 @@ textarea.form-control {
 .hover-shadow {
   transition: 0.2s ease;
 }
+
 .hover-shadow:hover {
   box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.54) !important;
 }
@@ -611,13 +667,16 @@ textarea.form-control {
 .hover-wrapper {
   overflow: hidden;
 }
+
 .hover-wrapper img {
   transition: 0.3s ease;
   transform: scale(1.1);
 }
+
 .hover-wrapper:hover img {
   transform: scale(1);
 }
+
 .hover-wrapper:hover .hover-overlay {
   opacity: 1;
   visibility: visible;
@@ -657,32 +716,38 @@ textarea.form-control {
   position: relative;
   z-index: 1;
 }
+
 .testimonial-bg-shapes .bg-map {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .testimonial-bg-shapes .bg-shape-1 {
   position: absolute;
   left: 100px;
   top: -50px;
 }
+
 .testimonial-bg-shapes .bg-shape-2 {
   position: absolute;
   right: 150px;
   top: 50px;
 }
+
 .testimonial-bg-shapes .bg-shape-3 {
   position: absolute;
   right: 50px;
   top: 200px;
 }
+
 .testimonial-bg-shapes .bg-shape-4 {
   position: absolute;
   left: 100px;
   bottom: 200px;
 }
+
 .testimonial-bg-shapes .bg-shape-5 {
   position: absolute;
   right: 200px;
@@ -702,6 +767,7 @@ textarea.form-control {
 .shadow-down {
   position: relative;
 }
+
 .shadow-down::before {
   position: absolute;
   content: "";
@@ -718,6 +784,7 @@ textarea.form-control {
   flex-direction: row-reverse;
   align-items: center;
 }
+
 @media (max-width: 991px) {
   .card-lg {
     flex-direction: column;
@@ -737,6 +804,7 @@ blockquote {
 .content * {
   margin-bottom: 20px;
 }
+
 .content strong {
   font-family: "Playfair Display", serif;
   font-size: 22px;
@@ -757,6 +825,7 @@ blockquote {
 .drag-lg-top {
   margin-top: -230px;
 }
+
 @media (max-width: 991px) {
   .drag-lg-top {
     margin-top: 0;
@@ -767,33 +836,39 @@ blockquote {
   position: relative;
   z-index: 1;
 }
+
 .page-title-alt .bg-shape-1 {
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
 }
+
 .page-title-alt .bg-shape-2 {
   position: absolute;
   left: 70px;
   top: 100px;
 }
+
 .page-title-alt .bg-shape-3 {
   position: absolute;
   left: 30%;
   top: 50px;
   transform: rotate(180deg);
 }
+
 .page-title-alt .bg-shape-4 {
   position: absolute;
   left: 100px;
   bottom: 100px;
 }
+
 .page-title-alt .bg-shape-5 {
   position: absolute;
   left: 40%;
   bottom: -25px;
 }
+
 .page-title-alt .bg-shape-6 {
   position: absolute;
   bottom: 100px;
@@ -803,42 +878,50 @@ blockquote {
 .page-title {
   padding: 250px 0 150px;
 }
+
 .page-title .container {
   position: relative;
   z-index: 1;
 }
+
 .page-title .bg-shape-1 {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
 }
+
 .page-title .bg-shape-2 {
   position: absolute;
   left: -20px;
   top: -10px;
 }
+
 .page-title .bg-shape-3 {
   position: absolute;
   left: 10%;
   top: 100px;
 }
+
 .page-title .bg-shape-4 {
   position: absolute;
   left: 50%;
   top: -20px;
 }
+
 .page-title .bg-shape-5 {
   position: absolute;
   left: 90px;
   bottom: -50px;
   transform: rotate(180deg);
 }
+
 .page-title .bg-shape-6 {
   position: absolute;
   right: 20%;
   bottom: -20px;
 }
+
 .page-title .bg-shape-7 {
   position: absolute;
   right: -220px;
@@ -848,45 +931,81 @@ blockquote {
 .filter-controls li {
   cursor: pointer;
 }
+
 .filter-controls li.active {
   font-weight: bold;
 }
+
 /*# sourceMappingURL=style.css.map */
 
 /************************************************************************************* 
 Polaroid configs
 **************************************************************************************/
-.picture-container
-{
-    position: relative;
-    height: 650px;
+.picture-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 650px;
+  
 }
 
-.picture-container .polaroid
-{
-    position: absolute;
-    border: 1px solid darkgrey;
-    background-color: #e7e5e5;
-    padding: 15px 15px 60px 15px;
-    box-shadow: 5px 10px 10px darkgrey;
-    
+.picture-container .polaroid {
+  position: absolute;
+  border: 1px solid darkgrey;
+  background-color: #e7e5e5;
+  padding: 15px 15px 60px 15px;
+  box-shadow: 5px 10px 10px darkgrey;
 }
 
-.picture-container .polaroid:after
-{
-    content: attr(polaroid-caption);
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: calc(100% - 20px);
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    
+.picture-container .polaroid:after {
+  content: attr(polaroid-caption);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
 }
 
-.picture-container .image
-{
-  position: absolute;  
+.picture-container .image {
+  position: absolute;
   justify-content: space-around;
+}
+
+/*
+Polaroid on-hover
+*/
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
 }
