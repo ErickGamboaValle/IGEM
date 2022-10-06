@@ -450,13 +450,14 @@ textarea.form-control {
 
 /* /card */
 .navigation {
-  padding: 40px 130px;
+  padding: 5px 130px;
   transition: 0.3s ease;
   height: min-content;
+  background-color: #B31E8D;
 }
 
 .navigation.nav-bg {
-  background-color: rgba(179, 30, 141, 0.4);
+  background-color: #B31E8D;
 
   padding: 1px;
 }
@@ -1009,3 +1010,8 @@ Polaroid on-hover
   visibility: visible;
   opacity: 1;
 }
+
+
+/*
+  slideshow
+*/
