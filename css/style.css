@@ -35,9 +35,21 @@ p,
 .paragraph {
   font-weight: 400;
   color: #4c4c4c;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-justify: initial !important;
+}
+
+li{
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-justify: initial !important;
 }
 
 p-lg,
@@ -947,15 +959,31 @@ Polaroid configs
   justify-content: center;
   position: relative;
   height: 650px;
+
+}
+
+.picture-container-pi {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  height: 650px;
   
+
+}
+
+.picture-container-cr {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  height: 650px;
+
 }
 
 .picture-container .polaroid {
-  position: absolute;
-  border: 1px solid darkgrey;
-  background-color: #e7e5e5;
+  border: 1px solid white;
+  background-color: white;
   padding: 15px 15px 60px 15px;
-  box-shadow: 5px 10px 10px darkgrey;
+  
 }
 
 .picture-container .polaroid:after {
@@ -967,6 +995,7 @@ Polaroid configs
   padding: 10px;
   font-size: 30px;
   text-align: center;
+  
 
 }
 
@@ -1015,3 +1044,8 @@ Polaroid on-hover
 /*
   slideshow
 */
+
+#img-align {
+  float: left;
+  margin: 0 0 0 15px;
+}
