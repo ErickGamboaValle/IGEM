@@ -967,16 +967,14 @@ Polaroid configs
   justify-content: left;
   position: relative;
   height: 650px;
-  
-
 }
 
 .picture-container-cr {
   display: flex;
-  justify-content: right;
+  justify-content: left;
   position: relative;
   height: 650px;
-
+  text-align: center;
 }
 
 .picture-container .polaroid {
@@ -1027,7 +1025,7 @@ Polaroid on-hover
   left: 0;
   right: 0;
   background: rgba(29, 106, 154, 0.72);
-  color: #fff;
+  color: white;
   visibility: hidden;
   opacity: 0;
 
