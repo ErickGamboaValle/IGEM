@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8">
+    <title>iGEM 2022 ITESO_Guadalajara</title>
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="iGEM 2022 ITESO_Guadalajara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="ITESO_Guadalajara">
+    <meta name="generator" content="iGEM 2022 ITESO_Guadalajara">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- themefy-icon -->
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="navigation fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" width="75px"
+                    alt="ITESO_Guadalajara"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navigation">
+                <ul class="navbar-nav sm-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" class="sr-only">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            href="team-members.html">Team</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="team-members.html">Members</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team-colabs.html">Collaborations</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team-attributions.html">Attributions</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team-partnerships.html">Partnerships</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            href="#">Project</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="project-first.html">Description</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="project-second.html">Model</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="project-third.html">Design</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            href="#.html">Parts</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="parts-first.html">Description</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="parts-second.html">Model</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="parts-third.html">Design</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            href="#.html">Human Practices</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="human-practices-first-interaction.html">1st interaction</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="human-practices-first-new-solution.html">1st New Solution</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="human-practices-second-interaction.html">2nd interaction</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="human-practices-second-new-solution.html">2nd New
+                                Solution</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="human-practices-third-interaction.html">3rd interaction</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            href="#.html">Education</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="education-amoxtli.html">Amoxtli</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="education-design.html">Design</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="education-podcast.html">Podcast</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            href="#">Awards</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="awards-design-league.html">Design League</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="awards-hackaton.html">Hackathon</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="awards-feciit.html">FECIIT</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="awards-cegint.html">CEGINT</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="awards-igem-epic.html">IGEM EPIC</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- hero area -->
+    <section class="hero-area bg-primary"
+        style="background-image: url('images/project/Prduccion\ de\ berries-13.jpg') !important; background-size: cover; background-position: center;"
+        id="parallax">
+        <div class="container" style="text-align: center; background-color: rgba(93,165,243, 0.4)">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <h1 class="font-tertiary">Business model</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- social icon -->
+        <ul class="list-unstyled ml-5 mt-1 position-relative zindex-1">
+            <li class="mb-3"><a class="text-white" href="https://www.facebook.com/iGemITESOGDL/"><i
+                        class="ti-facebook"></i></a></li>
+            <li class="mb-3"><a class="text-white" href="https://www.instagram.com/igem_iteso/?hl=es-la"><i
+                        class="ti-instagram"></i></a></li>
+            <li class="mb-3"><a class="text-white" href="https://twitter.com/igemiteso?lang=es"><i
+                        class="ti-twitter"></i></a>
+            </li>
+        </ul>
+        <!-- /social icon -->
+    </section>
+    <!-- /hero area -->
+
+    <!-- team_members -->
+    <section class="section">
+        <section class="section bg-cover">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 style="margin-bottom: 55px;">Proposed Project Implementation of BerryVax</h2>
+                            <div style="margin-top: 35px;">
+                                <h3>PROBLEM IDENTIFICATION</h3>
+                                <p>
+                                    For the selection of our problem, we first searched for the current needs that exist
+                                    in our country, more specifically in our state, by consulting the State Innovation
+                                    Agenda (Agenda Estatal de Innovación, AEI) from Jalisco, a tool for state and
+                                    regional economic development, to define and articulate priorities, generate
+                                    intelligent solutions and leverage support for high-impact projects.
+                                </p>
+                                <p>
+                                    Each member of the team conducted exhaustive research about a topic of their
+                                    interest, seeing the impact of each of these problems, and possible solutions
+                                    through synthetic biology, a vote was held among the team members, to arrive
+                                    together at a topic of interest, which we saw an incredible potential as a project.
+                                </p>
+                                <p>
+                                    For a deeper identification of the problem and the design of the best possible
+                                    solution, the Design Thinking methodology was used, which includes 5 steps:
+                                </p>
+                                <img src="images/project/design thinking.png" alt="" style="height: 500px;">
+                                <p>
+                                    This strategy is ideal for the general understanding of the problem based on the
+                                    needs of a potential customer segment, as well as the validation of the solution
+                                    that is intended to be generated through various activities implemented in the area
+                                    of human practices in this project. For more information visit our Human Practices
+                                    page. (LINK A HUMAN PRACTICES). We also got some professional advice in the
+                                    development of the business model, in order to reach a complete and adequate
+                                    business plan for the product to be generated.
+                                    perro puto link aqui
+                                </p>
+                                <h4 style="margin-top: 25px; text-align: left;">MISION</h4>
+                                <p>Through the advice of experts in pest control in berry crops, conversations with
+                                    small and medium-sized producers, as well as export companies of these products, we
+                                    seek to generate an integral strategy of biocontrol of fungal pests in berries,
+                                    always considering the needs for the integrity of workers and laborers, without
+                                    harming the environment. </p>
+
+
+                                <h4 style="margin-top: 25px; text-align: left;">VISION</h4>
+                                <p>To generate a product capable of preventive and corrective control of fungal pests
+                                    affecting berry crops. </p>
+
+                                <h4 style="margin-top: 25px;">VALUE PROPOSITION</h4>
+                                <p>To conclude with our value proposition, we carried out a fundamental process of the
+                                    Design Thinking method, empathizing with the affected parties to understand how the
+                                    problem affects them, and clearly understand what we are solving, for which we use
+                                    the Empathy Map tool, where we try to see the situation from the perspective of
+                                    those affected, through a series of questions such as: What do they feel? What do
+                                    they see around them? What do they hear about this issue? and What solutions do they
+                                    currently implement??</p>
+                                <img src="images/project/empathy map.png" alt=""
+                                    style="height: 700px; margin-top: 15px; margin-bottom: 25px;">
+
+
+                                <p>From this Empathy Map diagram, we could more easily perceive the need for a
+                                    comprehensive, natural and organic solution to the losses that farmers are currently
+                                    experiencing, without involving the health of workers, as well as the early
+                                    detection of these threats in order to be able to treat them adequately.</p>
+                                <img src="images/project/pains_gains.png" alt="" style="height: 500px;">
+
+                                <p>From this we can solve losses due to pests, pest detection efforts, stimulate the
+                                    immune system and plant production, reduce costs by attacking multiple pests with a
+                                    genetic circuit, reduce water expenses, reduce plant losses and increase fruit
+                                    quantity, from which our value proposition is born and finally structured.</p>
+
+                                <p style="color: rgb(19, 64, 107); font-weight: bold; ">
+                                    To produce higher quality fruit, reducing fruit loss and the loss of plants due to
+                                    fungal pests through an integral control, both preventive and corrective and
+                                    organic, while providing security to the agricultural community, avoiding health
+                                    problems to the rural community and welfare to consumers for a future sustainable
+                                    field.
+                                </p>
+
+
+                                <img src="images/project/canvas model.png" alt=""
+                                    style="height: 700px; margin-bottom: 25px;">
+
+                                <h4 style="margin-bottom: 15px;">INTELLECTUAL PROPERTY </h4>
+                                <p>
+                                    Strategy Design
+                                    The following process will be applied when patenting BerryVax. The general purpose
+                                    of a patent is to grant an exclusive right of use over an invention. The issue of
+                                    gene patents is still complicated and raises many different opinions regarding the
+                                    ethical aspect. To date, it is impossible to patent a gene by itself. However, a
+                                    genetically modified organism with industrial application can be patented. Depending
+                                    on your country, the process varies. This section focuses on countries governed by
+                                    the Budapest Treaty. This treaty was established in 1977 and states that once the
+                                    patent procedure has been completed and the microorganism has been deposited in a
+                                    repository, the patent is valid in all the countries that belong to the treaty.
+                                    There are currently 81 members, available <a
+                                        href="https://wipolex.wipo.int/en/treaties/ShowResults?search_what=C&treaty_id=7">here</a>.
+                                </p>
+                                <p>The first step is to check if your invention is patentable:</p>
+                                <img src="images/project/patentable.png" alt="" style="margin-bottom: 25px;">
+
+                                <p>From this point on, the process is specific to Mexican authorities. If you are from
+                                    another country, you must check the next steps to patent a microorganism with your
+                                    local authorities. The present guide can serve as a general idea of the procedure
+                                    for other IGEM teams interested in patenting their products or solutions. </p>
+
+                                <p>Next, you must check <a
+                                        href="https://www.wipo.int/export/sites/www/budapest/en/guide/section_d/pdf/subsection_b.pdf">here</a>
+                                    and <a
+                                        href="https://www.wipo.int/budapest/en/guide/section_d/subsection_c.html">here</a>
+                                    if your microorganism fulfills the requirements
+                                    stablished by the Budapest Treaty for IDA’s (International Depositary Authorities).
+                                    Once you have met those requirements, the process to follow is:</p>
+
+                                <img src="images/project/Patente de Microorganismo.png" alt="" style="height: 1200px;">
+                                <p style="margin-bottom: 35px;">It is important to note that the patent of a
+                                    microorganism falls into the category of
+                                    industrial property, the following costs correspond to this process and category.
+                                    There are additional fees that must be covered with the WIPO and the Budapest
+                                    Treaty, as well as with the institution in which you deposit your microorganism.
+                                    These fees depend on the country in which you are carrying out the process. The
+                                    following table breaks down the fees that must be covered with the IMPI when
+                                    requesting a patent.</p>
+                                <img src="images/project/Patents table.png" alt="" style="height: 1000px;">
+
+                                <h4 style="margin-top: 40px;">SWOT ANALYSIS</h4>
+
+                                <img src="images/project/SWOT.png" alt="" style="height: 700px;">
+
+                                <h4 style="margin-top: 15px;">PEST ANALYSIS</h4>
+                                <img src="images/project/PESTE.png" alt="" style="height: 700px;">
+
+                                <h4>MARKET ANALYSIS</h4>
+                                <p>The berry sector in Mexico ranks 3rd in the importance of agri-food exports, with
+                                    annual sales of around $2,282 MDD in 2020. Internationally, Mexico contributes 10.2%
+                                    of the berries consumed in the world. </p>
+                                <p>
+                                    On the World rank Mexico is:
+                                </p>
+
+                                <li>
+                                    1st World producer of Blackberry
+                                </li>
+                                <li>
+                                    2nd World producer of Raspberry
+                                </li>
+                                <li>
+                                    3rd World producer of Strawberry
+                                </li>
+                                <li>
+                                    6th Word producer of Cran Berry
+                                </li>
+
+                                <img src="images/project/15. Producción nacional gráfica.PNG" alt=""
+                                    style="margin-bottom: 25px;">
+
+                                <p>Based on data provided by the National Association of Berries Exporters (Aneberries),
+                                    blueberry production grew by around 112% in 2021. The export of berries in Mexico is
+                                    valued at 400 MDD, exporting 364 thousand tons around the world.</p>
+                                <p>To know more about Market Analysis go to Human Practice page, 1st interaction: </p>
+
+                                <h4 style="margin-top: 25px;">BENCHMARKING</h4>
+                                <p>The main competitors are:</p>
+                                <p>Ciao Fungi is a fungicide based on rosemary, Kuratod is a fungicide based on copper
+                                    and sulfur these products are liquids so have an easy application by irrigation
+                                    methods. Pocure is a chemical fungicide based on Triflumizole and its application is
+                                    foliar, Serenade is an organic fungicide to control and correct the problem this
+                                    product is a powder based on Bacillus subtilis.</p>
+                                <p>These products have characteristics that the farmers expressed don’t need (more
+                                    information about Farmers needs on Quality Function Deployment (QFD) in Proposed
+                                    Implementation section: LINK a pestaña de implementación). Like don’t be oil based,
+                                    residue free or be an organic product. BerryVax was designed to accomplish the needs
+                                    of farmers.
+                                    perro link
+                                </p>
+                                <img src="images/project/Demanded Quality.png" alt="">
+
+                                <h4 style="margin-top: 25px;">CLIENTS</h4>
+                                <p>Based on our value proposition, our market segment is focused on the following three:
+                                </p>
+
+                                <li>1. Producers who seek to export their product to other countries and therefore must
+                                    carry organic pest control.
+                                </li>
+                                <li>
+                                    2. Companies distributing agrochemical products in the country.
+                                </li>
+                                <li>
+                                    3. Those in charge of pest control systems in crops.
+                                </li>
+
+                                <h4 style="margin-top: 25px;">MINIMUM VIABLE PRODUCT </h4>
+                                <p>The product consists of an 8L bottle of BerryVax product, where between 4 and 8L of
+                                    product per hectare is required. The product requires to be used for 5 days for crop
+                                    protection, the prevention of pests, and its activation in case of fungus presence,
+                                    with a protection period of 6 to 8 months from the date of application.</p>
+                                <img src="images/project/Copia de Berry-vax (1).png" alt="" style="height: 500px;">
+
+                                <h4>UP-SCALING MODEL </h4>
+                                <p>The production process of this biofertilizer is divided into three principal
+                                    operations: biomass propagation, main fermentation and product conditioning. The
+                                    first one is executed by a seed reactor that is used for the biomass propagation,
+                                    into this the culture media BTB-2 and the B. subtilis inoculum are administered. The
+                                    exit mixture of this reactor is administered to another fermenter that acts as the
+                                    main fermentation of the process, to this the KS culture media is added and after
+                                    the product passes to the product conditioning, here the product is purified by
+                                    microfiltration and pervaporation ending in a bottling of an 8L presentation with a
+                                    1.33% B. subtilis biomass concentration. </p>
+
+                                <img src="images/project/superpro.png" alt="">
+
+                                <p>We concluded that the ideal design would be the optimized model, with an annual
+                                    production of 215,265 bottles (1,722,120 liters) of $100.00USD, decreasing the
+                                    payback time of the plant (6.39 years) and the production cost ($62.15 USD/bottle),
+                                    and maximizing the net present value ($14,967,660.00USD).</p>
+
+
+                                <h4>UP-SCALING PLANING </h4>
+                                <p>With the help of some of our technology mentors, considering the production
+                                    conditions and comparing with existing industries similar to our process, a modeling
+                                    and planning was done using the SuperPro Designer program, and a product feasibility
+                                    analysis was performed.</p>
+                                <h4 style="margin-top: 25px;">VALIDATION </h4>
+                                <h4 style="text-align: left; margin-bottom: 15px;">Competencies and courses </h4>
+                                <p>Science Fair ITESO FECIIT en 2021</p>
+
+                                <p>CEGINT Second place in high-impact entrepreneurship contest 2022</p>
+                                <p>IGEM EPIC’s Summer Bootcamp </p>
+                                <p>iGEM Design League en 2021 </p>
+                                <p>iGEM EPIC’s 2021 Bio-Hackathon </p>
+                                <p>Premio Estatal de Innovación, Ciencia y Tecnología, Jalisco 2022</p>
+                                <p>State Award for Innovation, Science and Technology, Jalisco 2022</p>
+                                <h4>MENTORSHIP</h4>
+                                <h5 style="text-align: left; margin-bottom: 15px;">GEGINT-Link iteso </h5>
+                                <p>ITESO's Center for Innovation and Technology Management (CEGINT) offers specialized
+                                    consulting and support to high-tech companies in their different stages of
+                                    development, from their creation to their maturity. </p>
+                                <p>LINK, an open innovation model in which multidisciplinary teams of students work on
+                                    the creation of solutions to specific challenges posed by companies and
+                                    organizations. </p>
+
+
+                                <h5 style="text-align: left; margin-bottom: 15px; margin-top: 25px;">Ing. Diego
+                                    Alejandro Castorena
+                                    Valenzuela </h5>
+
+                                <p>Biotechnology engineer, master in innovation in business development. Co-founder of
+                                    Sicte biotek. </p>
+
+
+
+                                <h4>References</h4>
+                                <p>
+                                    Budapest System. (2022, June 16). Guide to the Deposit of Microorganisms under the
+                                    Budapest Treaty. WIPO. Retrieved September 7, 2022, from
+                                    https://www.wipo.int/budapest/en/guide/
+                                </p>
+                                <p>
+                                    CONACYT (2015) Agenda de Innovación de Jalisco. México. Retrieved June 5, 2021, from
+                                    http://www.agendasinnovacion.org/?p=916
+                                </p>
+                                <p>
+                                    CONACYT (2020) Agendas Estatales y Regionales de Innovación. México. Retrieved June
+                                    5, 2021, from http://www.agendasinnovacion.org/
+                                </p>
+                                <p>
+                                    Instituto Mexicano de la Propiedad Industrial. (n.d.). Justia Mexico: Ley de la
+                                    Propiedad Industrial > TITULO SEGUNDO > Capítulo V :: Ley de Mexico. JUSTIA.
+                                    Retrieved September 7, 2022, from
+                                    https://mexico.justia.com/federales/leyes/ley-de-la-propiedad-industrial/titulo-segundo/capitulo-v/#:%7E:text=Art%C3%ADculo%2047.,conocimientos%20medios%20en%20la%20materia.
+                                </p>
+                                <p>
+                                    Instituto Mexicano de la Propiedad Industrial. (2018, November 6). Sistema de
+                                    Budapest para el depósito de microorganismos. Gobierno De México - Instituto
+                                    Mexicano De La Propiedad Industrial. Retrieved September 7, 2022, from
+                                    https://www.gob.mx/impi/articulos/sistema-de-budapest-para-el-deposito-de-microorganismos-166757
+                                </p>
+                                <p>
+                                    Instituto Mexicano de la Propiedad Industrial & Secretaría de Economía. (2013). Guía
+                                    del Usuario de Patentes y Modelos de Utilidad. Instituto Mexicano de la Propiedad
+                                    Industrial. Retrieved September 7, 2022, from
+                                    https://sia.xoc.uam.mx/otc/documentos/guia_patentes_IMPI.pdf
+                                </p>
+                                <p>
+                                    Instituto Mexicano de la Propiedad Industrial & Secretaría de Economía. (2021, April
+                                    4). ACUERDO POR EL QUE SE DA A CONOCER LA TARIFA POR LOS SERVICIOS QUE PRESTA EL
+                                    INSTITUTO MEXICANO DE LA PROPIEDAD INDUSTRIAL. Instituto Mexicano de la Propiedad
+                                    Industrial. Retrieved September 7, 2022, from
+                                    https://www.gob.mx/cms/uploads/attachment/file/614091/Acuerdo.Tarifa_Actualizacio_n_04.02.21_PDF.pdf
+                                </p>
+                                <p>
+                                    Keystone Pest Solutions (2022) Procure 480SC Fungicide 1 Quart. Retrieved october
+                                    3rd, 2022 from
+                                    https://www.keystonepestsolutions.com/procure-480-sc-fungicide-1-quart-224
+                                </p>
+                                <p>
+                                    OMPI. (2015, August). El Tratado de Budapest, administrado por la OMPI, facilita el
+                                    patentamiento de biotecnología. OMPI Revista. Retrieved September 7, 2022, from
+                                    https://www.wipo.int/wipo_magazine/es/2015/04/article_0001.html
+                                </p>
+                                <p>
+
+                                    SIAP, 2020. Panorama agroalimentario 2020. Ciudad de México: 2020, pp.12,13, 36,37,
+                                    72,73, 74,75, 149,150.
+                                    WIPO. (n.d.). Budapest – El Sistema internacional de depósito de microorganismos.
+                                    Retrieved September 7, 2022, from https://www.wipo.int/budapest/es/
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark footer-section">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="text-light">Email</h5>
+                        <p class="text-white paragraph-lg font-secondary">contactoinfo@contact.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-light">Phone</h5>
+                        <p class="text-white paragraph-lg font-secondary">+ 00 0000 0000 </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-light">Address</h5>
+                        <p class="text-white paragraph-lg font-secondary">Adress Uni</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
